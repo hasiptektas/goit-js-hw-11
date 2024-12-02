@@ -29,8 +29,6 @@ searchButton.addEventListener("click", (e) => {
     .then(response => response.json())
     .then(data => {
 
-      console.log("data", data.hits.length);
-
       if (data.hits.length === 0) {
         iziToast.error({
           message: "Sorry, there are no images matching your search query. Please try again!",
