@@ -82,8 +82,6 @@ searchButton.addEventListener("click", (e) => {
     captionPosition: 'bottom',
   })
 
-  console.log(box);
-
   function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
